@@ -1,5 +1,5 @@
 #--
-# Copyright (c) 2018 Iikka Niinivaara
+# Copyright (c) 2018 Iikka Niinivaara, RELEX Solutions
 #
 # Licensed under the Apache License, Version 2.0 (the "License"); you
 # may not use this file except in compliance with the License.  You may
@@ -47,7 +47,7 @@ module Rack
       private
 
       def self.set_handler(app, rack_opts)
-        Birdmonger::Server.handler_ = ->(request, headers) do
+        Birdmonger::Server.handler_ = lambda do |request, headers|
           ruby_io = StringIO.new
           ruby_io.set_encoding(Encoding.find('ASCII-8BIT'))
           buf = Await.result(Reader.read_all(request.reader))
