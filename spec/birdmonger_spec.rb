@@ -1,5 +1,5 @@
 #--
-# Copyright (c) 2018 Iikka Niinivaara
+# Copyright (c) 2018 Iikka Niinivaara, RELEX Solutions
 # Copyright (c) 2011-2017 David Kellum
 # Copyright (c) 2010-2011 Don Werve
 #
@@ -28,7 +28,7 @@ describe Birdmonger do
   [:http, :https].each do |scheme|
     describe "for #{scheme.to_s} scheme" do
 
-      def get(path, headers = {}, &block )
+      def get(path, headers = {}, &block)
         Net::HTTP.start(@options[:host], @options[:port],
                         nil, nil, nil, nil, # Irrelevant http proxy parameters
                         @https_client_opts) do |http|
