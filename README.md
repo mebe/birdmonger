@@ -38,6 +38,10 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/mebe/b
 
 Ruby code should style should roughly follow https://github.com/bbatsov/ruby-style-guide.
 
+## Acknowledgements
+
+Development is being sponsored by [RELEX Solutions](https://www.relexsolutions.com). Go check them out!
+
 ## TODO
 
 - [x] Support HTTPS
@@ -47,7 +51,7 @@ Ruby code should style should roughly follow https://github.com/bbatsov/ruby-sty
 
 ## License
 
-Copyright (c) 2018 Iikka Niinivaara
+Copyright (c) 2018 Iikka Niinivaara, RELEX Solutions
 
 Licensed under the Apache License, Version 2.0 (the "License"); you
 may not use this file except in compliance with the License.  You
