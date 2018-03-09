@@ -36,7 +36,7 @@ After checking out the repo, run `bundle install` to install dependencies. Compi
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/mebe/birdmonger.
 
-Ruby code should style should roughly follow https://github.com/bbatsov/ruby-style-guide.
+Ruby code should roughly follow https://github.com/bbatsov/ruby-style-guide.
 
 ## Acknowledgements
 
