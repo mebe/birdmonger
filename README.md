@@ -1,6 +1,6 @@
 # Birdmonger
 
-A [Finagle](http://twitter.github.io/finagle/)-based (via [TwitterServer](http://twitter.github.io/twitter-server)) Rack server for JRuby. Includes all benefits of Finagle and TwitterServer. Requires no legacy war stuff, so no Warbler.
+A [Finagle](http://twitter.github.io/finagle/)-based (via [TwitterServer](http://twitter.github.io/twitter-server)) Rack server for JRuby. Includes all the benefits of Finagle and TwitterServer. Requires no legacy war stuff, so no Warbler.
 
 Specs are forked from [Fishwife](https://github.com/dekellum/fishwife), which in turn is forked from [Mizuno](https://github.com/matadon/mizuno).
 
