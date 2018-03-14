@@ -30,7 +30,7 @@ Or with e.g. Rails
 
 ## Development
 
-After checking out the repo, run `bundle install` to install dependencies. Compile Scala code with `sbt clean assembly`. Run tests: `bundle exec rspec`. Package a new gem with `bundle exec rake build`.
+After checking out the repo, run `bundle install` to install dependencies. Compile Scala code with `sbt clean compile`. Run tests: `bundle exec rspec`. Package a new gem with `bundle exec rake build`.
 
 ## Contributing
 
