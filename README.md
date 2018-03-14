@@ -44,6 +44,7 @@ Development is being sponsored by [RELEX Solutions](https://www.relexsolutions.c
 
 ## TODO
 
+- [ ] Add CLI to start Birdmonger
 - [x] Support HTTPS
 - [ ] Support H2
 - [ ] Support hijacks?
