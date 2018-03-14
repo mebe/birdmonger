@@ -2,11 +2,8 @@ import Dependencies._
 
 lazy val root = (project in file(".")).
   settings(
-    inThisBuild(List(
-      organization := "com.example",
-      scalaVersion := "2.12.4",
-      version      := "0.1.0-SNAPSHOT",
-    )),
+    scalaVersion := "2.12.4",
+    version      := "0.1.0",
     name := "birdmonger",
     libraryDependencies ++= Seq(twitterServer, slf4jSimple),
     assemblyOutputPath in assembly := new File("lib/birdmonger.jar"),
