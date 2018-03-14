@@ -48,8 +48,13 @@ Development is being sponsored by [RELEX Solutions](https://www.relexsolutions.c
 - [ ] Support H2
 - [ ] Support hijacks?
 - [ ] Fix sleep in spec before(:all)
+- [ ] Add a script that updates the NOTICE file and licenses/ files automatically
 
 ## License
+
+The Gem packaged release of this software bundles some of its dependencies. See NOTICE for all attribution notices. See licenses/ subdirectory for the individual licenses of components without specific NOTICE policies.
+
+### Birdmonger
 
 Copyright (c) 2018 Iikka Niinivaara, RELEX Solutions
 
@@ -76,3 +81,4 @@ Licensed under the Apache Public License, version 2.0.
 Copyright (c) 2010-2011 Don Werve
 
 Licensed under the Apache Public License, version 2.0.
+ 
